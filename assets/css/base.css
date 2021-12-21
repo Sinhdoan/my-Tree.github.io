@@ -1,0 +1,32 @@
+:root{
+    --white-color: #fff;
+    --black-color: #373F41;
+    --height-header: 88px;
+    --color-header: #f2f5fa;
+    --primany-color: #3C64B1;
+    --gray-color: #737B7D;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.w-1{
+    width: 100%;
+}
+.l-4{
+    width: calc(100% / 4);
+    flex: 0 0 calc(100% / 4);
+}
+.l-3{
+    width: calc(100% / 3);
+    flex: 0 0 calc(100% / 3);
+}
+.l-2{
+    width: 50%;
+    flex: 0 0 50%;
+}
+.l-1{
+    width: 100%;
+    flex: 0 0 100%;
+}
